@@ -1,4 +1,8 @@
 export LANG=ja_JP.UTF-8
+# LANGUAGE は GNU gettext ぐらいでしか使わないらしい
+# LANG より優先度高い
+# この書き方で順番に試行するはず
+export LANGUAGE=ja_JP:ja:en_US:en
 export EDITOR=vim
 export PAGER=less
 #export TERM=xterm-256color
