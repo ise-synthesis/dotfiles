@@ -3,6 +3,8 @@ export EDITOR=vim
 export PAGER=less
 #export TERM=xterm-256color
 
+umask 022
+
 unset MAILCHECK
 
 # source the users bashrc if it exists
