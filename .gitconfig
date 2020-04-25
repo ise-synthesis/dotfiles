@@ -1,0 +1,14 @@
+# vim: set noexpandtab:
+[core]
+	autocrlf = false
+#	sharedRepository = true
+[http]
+	sslVerify = true
+[merge]
+	ff = false
+[pull]
+	ff = true
+
+# 値を上書きするために最後に include する
+[include]
+	path = ~/.gitconfig.local
