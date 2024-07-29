@@ -3,4 +3,4 @@ ServerAliveInterval 30
 Include *.conf
 
 Host github.com
-  Identityfile ~/.ssh/id_rsa_github
+  Identityfile ~/.ssh/id_ed25519_github

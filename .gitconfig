@@ -1,6 +1,7 @@
 # vim: set noexpandtab:
 [core]
 	autocrlf = false
+	quotepath = false
 #	sharedRepository = true
 [http]
 	sslVerify = true
